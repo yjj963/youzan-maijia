@@ -171,7 +171,7 @@ new Vue({
             })
         },
         add(good){
-            Cart.add(good.id).then(res=>{
+            Cart.add(good.id).then(res=>{console.log(res)
                 good.number++
             })
         },
